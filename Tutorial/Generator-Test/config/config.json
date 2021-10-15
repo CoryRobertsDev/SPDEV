@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "yeoman-teset-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/yeomanTeset/YeomanTesetWebPart.js",
+          "manifest": "./src/webparts/yeomanTeset/YeomanTesetWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "YeomanTesetWebPartStrings": "lib/webparts/yeomanTeset/loc/{locale}.js"
+  }
+}

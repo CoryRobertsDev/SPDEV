@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "developer": {
+      "name": "Cory Roberts",
+      "privacyUrl": "https://ucwv.edu/privacy",
+      "termsOfUseUrl": "https://ucwv.edu/terms-of-use",
+      "websiteUrl": "https://ucwv.edu/my-app",
+      "mpnId": "000000"
+    },
+    "name": "Lightbox Image Gallery",
+    "id": "a7d34cfc-bc45-4910-9ec5-3e2ca97a5d27",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-lightbox-image-gallery.sppkg"
+  }
+}
