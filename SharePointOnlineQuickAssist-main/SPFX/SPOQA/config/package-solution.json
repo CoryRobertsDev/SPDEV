@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spoqa-client-side-solution",
+    "id": "029e4fc2-a440-4f5f-a358-b34a0eca54b5",
+    "version": "1.21.11.06",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+          {  
+            "resource": "Microsoft Graph",  
+            "scope": "User.ReadBasic.All"  
+          }, 
+          {  
+              "resource": "Microsoft Graph",  
+              "scope": "User.Read.All"  
+          }, {  
+              "resource": "Microsoft Graph",  
+              "scope": "Group.ReadWrite.All"
+          }, {  
+              "resource": "Microsoft Graph",  
+              "scope": "GroupMember.ReadWrite.All"
+          }],
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/spoqa.sppkg"
+  }
+}

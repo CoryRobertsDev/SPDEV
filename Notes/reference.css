@@ -1,0 +1,35 @@
+/* hide site icon */
+#siteIcon { display : none; }
+
+/* Hide Share, Follow, & Edit Links */
+#RibbonContainer-TabRowRight {
+    display: none !important;
+}
+
+/* Hide top site menu*/
+.ms-breadcrumb-top {
+    white-space: nowrap;
+    display: none;
+}
+
+/* HIde Suite Bar */
+div#suiteBarTop {
+display: none;
+}
+
+/*hide default search box*/
+.ms-mpSearchBox {
+    display: none;
+    }
+    
+/* Hide Page Title*/
+.ms-core-pageTitle {
+    display: none;
+    } 
+/* */
+    
+/* */
+    
+/* */
+    
+/* */

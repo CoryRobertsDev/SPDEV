@@ -1,27 +1,21 @@
 {
   "@pnp/generator-spfx": {
-    "framework": "react",
-    "pnpFramework": "reactjs.plus",
+    "framework": "none",
+    "pnpFramework": "none.plus",
     "pnp-libraries": [
       "jquery@3",
       "@pnp/pnpjs",
-      "@pnp/spfx-property-controls",
       "spfx-uifabric-themes",
-      "@pnp/spfx-controls-react",
       "rush@3.3"
     ],
     "pnp-ci": "no-devops",
-    "pnp-vetting": [
-      "webpack-analyzer",
-      "stylelint",
-      "csscomb"
-    ],
+    "pnp-vetting": [],
     "spfxenv": "spo",
     "pnp-testing": []
   },
   "@microsoft/generator-sharepoint": {
     "environment": "spo",
-    "framework": "react",
+    "framework": "none",
     "isCreatingSolution": true,
     "whichFolder": "subdir"
   }

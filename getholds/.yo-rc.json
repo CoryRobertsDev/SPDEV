@@ -1,0 +1,13 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.11.0",
+    "libraryName": "getholds",
+    "libraryId": "01a516a9-e135-41bd-866e-5550ac245daf",
+    "environment": "spo",
+    "packageManager": "npm",
+    "framework": "none",
+    "isCreatingSolution": true,
+    "isDomainIsolated": true,
+    "componentType": "webpart"
+  }
+}
